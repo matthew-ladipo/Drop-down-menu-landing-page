@@ -1,0 +1,57 @@
+.services-submenu {
+  width: 100px;
+  padding: 8px 15px;
+  top: 17px;
+  left: -15px;
+  box-shadow: 0 7px 9px 0 rgba(7, 7, 7, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  position: absolute;
+  list-style: none;
+  text-align: start;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.services-submenu li {
+  cursor: pointer;
+  margin-bottom: 7px;
+  justify-content: space-between;
+}
+.services-submenu li span {
+  margin: 0 5px;
+}
+.services-submenu li a:hover {
+  background: rgb(245, 247, 247);
+  border-radius: 5px;
+}
+
+.services-submenu.clicked {
+  display: none;
+}
+
+.submenu-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+@media screen and (max-width: 760px) {
+  .services-submenu {
+    height: 2.5rem;
+    width: 7rem; 
+    position: relative;
+    background-color: #fff;
+    padding-bottom: 18px;
+    box-shadow: none;
+    z-index: 2;
+    top: 0;
+    margin-left: 15px;
+    justify-content: start;
+  }
+  .services-submenu li {
+    cursor: pointer;
+  
+    
+  }
+}
