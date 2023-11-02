@@ -3,11 +3,7 @@ import { serviceDropdown } from "./routing";
 import { Link } from "react-router-dom";
 import "./CompanyDropdown.css";
 
-
 function CompanyDropdown() {
-
-
-
   const [dropdown, setDropdown] = useState(false);
 
   return (
@@ -20,7 +16,7 @@ function CompanyDropdown() {
           return (
             <li key={item.id}>
               <Link to="/" onClick={() => setDropdown(false)}>
-              <span>{item.icons}</span> {item.title}
+                <span>{item.icons}</span> {item.title}
               </Link>
             </li>
           );

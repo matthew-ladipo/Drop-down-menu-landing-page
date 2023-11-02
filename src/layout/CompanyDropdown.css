@@ -39,7 +39,7 @@
 @media screen and (max-width: 760px) {
   .services-submenu {
     height: 2.5rem;
-    width: 7rem; 
+    width: 7rem;
     position: relative;
     background-color: #fff;
     padding-bottom: 18px;
@@ -51,7 +51,5 @@
   }
   .services-submenu li {
     cursor: pointer;
-  
-    
   }
 }

@@ -33,7 +33,7 @@
   font-weight: bold;
   background: #050505;
   border: 3px solid #faf8f8;
-  position: relative;
+ 
   margin-top: 3rem;
   padding: 1.1rem;
   border-radius: 20px;
@@ -46,7 +46,7 @@
 .svgs {
   margin: 35px -20px;
   display: flex;
-  position: relative;
+  /* position: relative; */
   /* justify-content: space-between; */
 }
 

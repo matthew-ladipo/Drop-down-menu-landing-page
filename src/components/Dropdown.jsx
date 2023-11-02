@@ -21,7 +21,7 @@ const DropDown = () => {
           <img className={style.img2} src={img2} alt="image" />
         </div>
         <div className={style.main}>
-          <div className={style.intro} >
+          <div className={style.intro}>
             <div className={style.container}>
               <h1>
                 Make

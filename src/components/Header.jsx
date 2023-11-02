@@ -8,7 +8,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-
 const Header = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -56,6 +55,7 @@ const Header = () => {
               <div className="btns">
                 <button className="btn2">Login</button>
                 <button className="btn1">Register</button>
+                <div className="dash">-----</div>
               </div>
             </ul>
           </nav>
@@ -66,7 +66,6 @@ const Header = () => {
         </div>
       </header>
       <DropDown />
-     
     </main>
   );
 };

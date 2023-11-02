@@ -13,7 +13,7 @@ main {
 header {
   color: #0a0a0a;
   position: absolute;
-  position:sticky;
+  position: sticky;
 }
 .nav-area {
   top: 0;
@@ -175,6 +175,9 @@ button span {
   .menuicon {
     display: none;
   }
+  .dash {
+    display: nonei;
+  }
 }
 
 @media screen and (max-width: 830px) {
@@ -203,11 +206,19 @@ button span {
     margin-right: 5px;
   }
   .btns {
-    margin-top: 270px;
+    margin-top: 100px;
     display: grid;
+  }
+  .dash {
+    margin-top: 490px;
   }
   .btns .btn2 {
     margin: 0 27px;
+    width: 9rem;
+    background-color: #d6d4d4;
+  }
+  .btns .btn1 {
+    width: 9rem;
   }
   .menuicon {
     position: absolute;

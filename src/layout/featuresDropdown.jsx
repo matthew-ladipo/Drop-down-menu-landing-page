@@ -3,7 +3,6 @@ import { navItems } from "./routing";
 import { Link } from "react-router-dom";
 import "./CompanyDropdown.css";
 
-
 function CompanyDropdown() {
   const [featureDrop, setfeatureDrop] = useState(false);
 
@@ -19,7 +18,7 @@ function CompanyDropdown() {
           return (
             <li key={item.id}>
               <Link to="/" onClick={() => setfeatureDrop(false)}>
-              {item.title}
+                {item.title}
               </Link>
             </li>
           );
